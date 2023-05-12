@@ -25,9 +25,9 @@ templates = [
 def on_pre_build(config, **kwargs):
     docs_dir = config['docs_dir']
     for src_path in templates:
-        output_path = docs_dir + "/" + src_path
-        template_path = output_path + '.tmpl'
-        data_path = output_path + '.yaml'
+        output_path = f"{docs_dir}/{src_path}"
+        template_path = f'{output_path}.tmpl'
+        data_path = f'{output_path}.yaml'
         args = ['go', 'run', '../../internal/cmds/execute-template']
         if os.path.exists(data_path):
             args += ['-data', data_path]
@@ -41,8 +41,8 @@ def on_files(files, config, **kwargs):
 
     # remove templates and data
     for src_path in templates:
-        files.remove(files.get_file_from_path(src_path + '.tmpl'))
-        data_path = src_path + '.yaml'
+        files.remove(files.get_file_from_path(f'{src_path}.tmpl'))
+        data_path = f'{src_path}.yaml'
         if data_path in files:
             files.remove(files.get_file_from_path(data_path))
 
