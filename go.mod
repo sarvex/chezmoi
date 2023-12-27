@@ -16,7 +16,7 @@ require (
 	github.com/charmbracelet/glamour v0.6.0
 	github.com/coreos/go-semver v0.3.1
 	github.com/fsnotify/fsnotify v1.6.0
-	github.com/go-git/go-git/v5 v5.6.1
+	github.com/go-git/go-git/v5 v5.11.0
 	github.com/google/go-github/v51 v51.0.0
 	github.com/google/renameio/v2 v2.0.0
 	github.com/gregjones/httpcache v0.0.0-20190611155906-901d90724c79
@@ -26,12 +26,12 @@ require (
 	github.com/muesli/combinator v0.3.0
 	github.com/muesli/termenv v0.15.1
 	github.com/pelletier/go-toml/v2 v2.0.7
-	github.com/rogpeppe/go-internal v1.10.0
+	github.com/rogpeppe/go-internal v1.11.0
 	github.com/rs/zerolog v1.29.1
 	github.com/sergi/go-diff v1.1.0
 	github.com/spf13/cobra v1.7.0
 	github.com/spf13/pflag v1.0.5
-	github.com/stretchr/testify v1.8.2
+	github.com/stretchr/testify v1.8.4
 	github.com/tailscale/hujson v0.0.0-20221223112325-20486734a56a
 	github.com/twpayne/go-pinentry v0.2.0
 	github.com/twpayne/go-vfs/v4 v4.2.0
@@ -41,12 +41,12 @@ require (
 	github.com/zalando/go-keyring v0.2.2
 	go.etcd.io/bbolt v1.3.7
 	go.uber.org/multierr v1.11.0
-	golang.org/x/crypto v0.8.0
+	golang.org/x/crypto v0.16.0
 	golang.org/x/exp v0.0.0-20230420155640-133eef4313cb
 	golang.org/x/oauth2 v0.7.0
-	golang.org/x/sync v0.1.0
-	golang.org/x/sys v0.7.0
-	golang.org/x/term v0.7.0
+	golang.org/x/sync v0.3.0
+	golang.org/x/sys v0.15.0
+	golang.org/x/term v0.15.0
 	gopkg.in/ini.v1 v1.67.0
 	gopkg.in/yaml.v3 v3.0.1
 	howett.net/plist v1.0.0
@@ -54,11 +54,11 @@ require (
 )
 
 require (
+	dario.cat/mergo v1.0.0 // indirect
 	github.com/Masterminds/goutils v1.1.1 // indirect
 	github.com/Masterminds/semver/v3 v3.2.1 // indirect
 	github.com/Microsoft/go-winio v0.6.1 // indirect
-	github.com/ProtonMail/go-crypto v0.0.0-20230417170513-8ee5748c52b5 // indirect
-	github.com/acomagu/bufpipe v1.0.4 // indirect
+	github.com/ProtonMail/go-crypto v0.0.0-20230828082145-3c4c8a2d2371 // indirect
 	github.com/alecthomas/chroma v0.10.0 // indirect
 	github.com/alessio/shellescape v1.4.1 // indirect
 	github.com/atotto/clipboard v0.1.4 // indirect
@@ -77,16 +77,18 @@ require (
 	github.com/bradenhilton/cityhash v1.0.0 // indirect
 	github.com/charmbracelet/harmonica v0.2.0 // indirect
 	github.com/charmbracelet/lipgloss v0.7.1 // indirect
-	github.com/cloudflare/circl v1.3.2 // indirect
+	github.com/cloudflare/circl v1.3.3 // indirect
 	github.com/containerd/console v1.0.3 // indirect
+	github.com/cyphar/filepath-securejoin v0.2.4 // indirect
 	github.com/danieljoos/wincred v1.1.2 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/dlclark/regexp2 v1.9.0 // indirect
 	github.com/dustin/gojson v0.0.0-20160307161227-2e71ec9dd5ad // indirect
 	github.com/emirpasic/gods v1.18.1 // indirect
-	github.com/go-git/gcfg v1.5.0 // indirect
-	github.com/go-git/go-billy/v5 v5.4.1 // indirect
+	github.com/go-git/gcfg v1.5.1-0.20230307220236-3a3c6141e376 // indirect
+	github.com/go-git/go-billy/v5 v5.5.0 // indirect
 	github.com/godbus/dbus/v5 v5.1.0 // indirect
+	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
 	github.com/google/btree v1.1.2 // indirect
 	github.com/google/go-querystring v1.1.0 // indirect
@@ -116,15 +118,15 @@ require (
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/rivo/uniseg v0.4.4 // indirect
 	github.com/shopspring/decimal v1.3.1 // indirect
-	github.com/skeema/knownhosts v1.1.0 // indirect
+	github.com/skeema/knownhosts v1.2.1 // indirect
 	github.com/spf13/cast v1.5.0 // indirect
 	github.com/xanzy/ssh-agent v0.3.3 // indirect
 	github.com/yuin/goldmark v1.5.4 // indirect
 	github.com/yuin/goldmark-emoji v1.0.1 // indirect
-	golang.org/x/mod v0.10.0 // indirect
-	golang.org/x/net v0.9.0 // indirect
-	golang.org/x/text v0.9.0 // indirect
-	golang.org/x/tools v0.8.0 // indirect
+	golang.org/x/mod v0.12.0 // indirect
+	golang.org/x/net v0.19.0 // indirect
+	golang.org/x/text v0.14.0 // indirect
+	golang.org/x/tools v0.13.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/protobuf v1.30.0 // indirect
 	gopkg.in/warnings.v0 v0.1.2 // indirect
